@@ -1,0 +1,14 @@
+
+.fm-charts-color-1 { fill: #ff6361 !important; stroke: #ff6361 !important; }
+.fm-charts-color-2 { fill: #003f5c !important; stroke: #003f5c !important; }
+.fm-charts-color-3 { fill: #58508d !important; stroke: #58508d !important; }
+.fm-charts-color-4 { fill: #bc5090 !important; stroke: #bc5090 !important; }
+.fm-charts-color-5 { fill: #ffa600 !important; stroke: #ffa600 !important; }
+
+.fm-charts-line {
+    stroke-width: 3px !important;
+}
+
+.fm-charts-point {
+    r: 4px !important;
+}

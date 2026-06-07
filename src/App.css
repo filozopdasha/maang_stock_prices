@@ -1,0 +1,84 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+html, body, #root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Flexmonster chart colors */
+.fm-charts-color-0 {
+  fill: #003f5c !important;
+  stroke: #003f5c !important;
+}
+
+.fm-charts-color-1 {
+  fill: #58508d !important;
+  stroke: #58508d !important;
+}
+
+.fm-charts-color-2 {
+  fill: #bc5090 !important;
+  stroke: #bc5090 !important;
+}
+
+.fm-charts-color-3 {
+  fill: #ff6361 !important;
+  stroke: #ff6361 !important;
+}
+
+.fm-charts-color-4 {
+  fill: #ffa600 !important;
+  stroke: #ffa600 !important;
+}
+
+.fm-charts-color-5 {
+  fill: #003f5c !important;
+  stroke: #003f5c !important;
+}
+
+.fm-charts-color-6 {
+  fill: none !important;
+  stroke: none !important;
+}
+
