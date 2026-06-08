@@ -22,7 +22,7 @@ An interactive stock analytics dashboard for **Apple, Amazon, Google, Meta, and 
 | Library | Purpose |
 |---|---|
 | [React](https://react.dev/) | UI framework |
-| [Flexmonster](https://www.flexmonster.com/) | Pivot tables & pivot charts |
+| [Flexmonster](https://www.flexmonster.com/demos/js/pivot-table/) | Pivot tables & pivot charts |
 | [amCharts 5](https://www.amcharts.com/) | Line & candlestick charts |
  
 ---
@@ -62,18 +62,7 @@ npm run build
 
 This project runs on the **free trial license**, which displays a Flexmonster watermark on all pivot tables or doesn't render pivot in case of trial key expiration.
 
-To use Flexmonster without the watermark, purchase a commercial license on the [Flexmonster order page](https://www.flexmonster.com/order/). Once you have a license key, add it to your environment and pass it to the component:
+To use Flexmonster without the watermark, purchase a commercial [Flexmonster pivot table license](https://www.flexmonster.com/pivot-table-editions-and-pricing/?r=rd_maang). 
 
-1. Create a `.env` file in the project root:
-```env
-VITE_FLEXMONSTER_LICENSE=your_license_key_or_file_path_here
-```
-
-2. In `App.jsx`, update the `FlexPivot` component to use it:
-```jsx
-<FlexmonsterReact
-  licenseFilePath={import.meta.env.VITE_FLEXMONSTER_LICENSE}
-/>
-```
  
 ---
